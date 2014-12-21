@@ -182,7 +182,7 @@ sudo reboot
 On host computer run:
 
 ```shell
-sudo mkdir /mnt/raspberr
+sudo mkdir /mnt/raspberrypi
 sudo chown $USER:$USER /mnt/raspberrypi
 sshfs root@raspberrypi:/ /mnt/raspberrypi
 ```
