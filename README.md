@@ -105,7 +105,6 @@ Options to change:
 8 Advanced Options
 A9 Update
 A3 Memory Split (16)
-5 Enable Camera
 7 Overclock (Medium)
 <Finish> (reboot)
 ```
