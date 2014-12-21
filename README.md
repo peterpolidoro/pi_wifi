@@ -125,21 +125,29 @@ Install this WiFi module from Adafruit:
 
 <http://www.adafruit.com/products/814>
 
-###Install Drivers from Realtek
+###Download Drivers from Realtek
 
 On host machine download latest drivers from (Choose the RTL8188CUS
 Linux version)
 
 <http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&PNid=21&PFid=48&Level=5&Conn=4&DownTypeID=3&GetDown=false>
 
+###Or Download Drivers from Github
+
+On host machine run:
+
+```shell
+cd ~/Downloads
+wget https://github.com/peterpolidoro/pi_wifi/blob/master/drivers/RTL8188C_8192C_USB_linux_v4.0.2_9000.20130911.zip
+```
+
+###Copy Drivers to RaspberryPi
+
 On host machine run:
 
 ```shell
 scp ~/Downloads/RTL8188C_8192C_USB_linux_v4.0.2_9000.20130911.zip pi@raspberrypi:~/drivers
 ```
-
-###Or Install Drivers from Github
-
 
 
 On raspberrypi run:
