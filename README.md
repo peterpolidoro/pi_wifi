@@ -106,7 +106,7 @@ Options to change:
 A9 Update
 A3 Memory Split (16)
 7 Overclock (Medium)
-<Finish> (reboot)
+<Finish> (reboot yes)
 ```
 
 After reboot, ssh in again and run:
